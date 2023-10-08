@@ -37,7 +37,7 @@ function OptionCluster({
       </Stack>
       {/*<TransitionGroup>*/}
       {/*  <Collapse>*/}
-      {expanded && (<Grid container spacing={6} sx={{px: 2, py: 2}}>
+      {expanded && (<Grid container spacing={0}>
         {options.map((opt) => (<OptionClusterSlider
           key={opt.name}
           opt={opt}
