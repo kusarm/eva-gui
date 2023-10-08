@@ -1,0 +1,32 @@
+export default interface FormValues {
+  gaussianFilterKernel: number;
+  bilateralFilterKernel: number;
+  bilateralColorSimilarity: number;
+  bilateralSpaceSimilarity: number;
+  median: number;
+  wiener: number;
+  darken: number;
+  light: number;
+  saturation: number;
+  percentile: number;
+  contrast: number;
+  vibrance: number;
+  claheTile: number;
+  claheLimit: number;
+  alpha: number;
+  sharpenLevel: number;
+  sharpenIntensity: number;
+  ostrenjeDetaljev: number;
+  edgeArea: number;
+  edgeNoise: number;
+  deNoise: number;
+  brightening: number;
+  darkening: number;
+  contrasting: number;
+  colors: number;
+  deBlurr: number;
+  combinedFilter: number;
+  // poorQuality: number;
+  // movieNo: number;
+  [key: string]: any;
+}
